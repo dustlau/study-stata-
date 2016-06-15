@@ -4,11 +4,11 @@
 把需要转换的其他版本的do文档放到Stata14的工作路径中，或者用cd命令把Stata14的工作路径设定到do文档所在的目录中；
 ##第二步：
 输入命令：
-'''
+  '''
 unicode encoding set gb18030 
   . unicode analyze *
   . unicode translate * 
-'''
+  '''
 
 ##完成以上这两步后Stata14就会把工作路径下的所有文件（包括do文档，dta数据储存文档等）转换为可以识别的中文。简单的说就是do文档的中文可以正常阅读，也可以在dta文档中的变量名也可以是中文了。
 
